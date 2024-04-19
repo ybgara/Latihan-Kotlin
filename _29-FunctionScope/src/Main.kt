@@ -1,0 +1,15 @@
+fun main() {
+    println("Function Scope")
+
+    // RUANG LINKUP DIMANA SEBUAH FUNCTION BISA DIAKSES
+    // SEMISAL BIKIN FUNCTION DI LUAR MAKA BISA DI AKSES DI MANAPUN DALAM KOTLIN
+    // SEMISAL INGIN MEMBATSAI MAKA FUNCTION DALAM FUNCTION
+
+    // FUNCTION SAY HELLO INI TIDAK BISA DIPANGGIL DILUAR FUN MAIN
+    // HANYA BISA DI FUN MAIN()
+    fun sayHello(name:String) :Unit{
+        println("Hi, $name")
+    }
+
+    sayHello("Garaaaaaaya")
+}
